@@ -9,7 +9,7 @@ const LayoutPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Layout Component</h1>
     <p>The Layout Component sets up the default template for a page.</p>
-    <p>It uses a GraphQL StaticQuery to query the <strong>gatsby-config.js file</strong> to grab the site title as a prop. It then renders the {`<Header>`} component and injects the site title as the siteTitle <strong>prop</strong>. Did you notice we changed it to "GatsbyJS is Cool"</p>
+    <p>It uses a GraphQL StaticQuery to query the <strong>gatsby-config.js file</strong> to grab the site title as a prop. It then renders the {`<Header>`} component and injects the site title as the siteTitle <strong>prop</strong>. Did you notice we changed it to "GatsbyJS Intro: Part 1"</p>
     <p>After this, it renders a div with some layout CSS applied - yes, that's <strong>CSS in JS</strong>. What's cool about that?</p>
     <ul>
       <li>All code for a component is within that component - html, css, js</li>
