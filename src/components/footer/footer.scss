@@ -1,0 +1,14 @@
+@import "../../utils/init";
+
+.footer {
+  margin-top: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: $c-grey--lightest;
+  border-top: 1px solid $c-grey--light;
+  background-color: $c-grey--darkest;
+}
+
+.footer__link {
+  color: $c-primary;
+}

@@ -1,0 +1,68 @@
+@import "../../utils/init";
+
+.menu--is-not-mobile .menu__toggle {
+  display: none;
+}
+.menu__toggle {
+  @media screen and (min-width: $bp--large) {
+    display: none;
+  }
+}
+
+.menu__items {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  transition: $trans--default;
+  @media screen and (min-width: $bp--large) {
+    @include flex-default();
+  }
+}
+.menu__items--collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+.menu__items--expanded {
+  max-height: 1000px;
+  opacity: 1;
+}
+.menu--is-mobile .menu__items {
+  @media screen and (min-width: $bp--large) {
+    max-height: 1000px;
+    opacity: 1;
+  }
+}
+
+.menu__item {
+  list-style: none;
+}
+
+.menu__link {
+  display: block;
+  text-decoration: none;
+  color: $c-primary;
+  font-weight: bold;
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+    color: $c-tertiary;
+  }
+}
+
+.menu__link--active {
+  text-decoration: underline;
+  color: $c-tertiary;
+}
+
+// Some overrides for a light background.
+.menu--light-bg .menu__link {
+  color: $c-grey--darkest;
+}
+.menu--light-bg .menu__link--active {
+  text-decoration: underline;
+  color: $c-secondary;
+}
+
+.menu--footer {
+  margin-bottom: 1rem;
+}

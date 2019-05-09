@@ -1,0 +1,16 @@
+@import "../../utils/init";
+
+.header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: $c-secondary;
+  font-size: 2rem;
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
+}

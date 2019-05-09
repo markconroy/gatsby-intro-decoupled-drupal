@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `GatsbyJS is Cool`,
+    title: `GatsbyJS Intro: Part 2`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@markconroy`,
   },
@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

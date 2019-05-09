@@ -1,0 +1,44 @@
+@import "../utils/init";
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.website-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.layout-contained {
+  max-width: $bp--large;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.padding-horizontal {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.padding-vertical {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
