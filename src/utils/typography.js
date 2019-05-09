@@ -3,7 +3,7 @@ import Typography from "typography"
 const typography = new Typography({
   baseFontSize: "24px",
   baseLineHeight: 1.5,
-  scaleRatio: 2,
+  scaleRatio: 3,
   headerWeight: 400,
   headerFontFamily: [
     "Alfa Slab One",

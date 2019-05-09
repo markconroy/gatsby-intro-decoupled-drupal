@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Page2Page = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <h1>What's Changed Here?</h1>
@@ -15,7 +15,9 @@ const IndexPage = () => (
         <li>Edited the {`<Layout`} component to reflect these changes</li>
         <li>Added support for SASS - just in case you like it!</li>
       </ul>
+
+      <p>To install sass, run <strong>{`npm install --save node-sass gatsby-plugin-sass`}</strong>. Then add it to your <strong>gatsby-config.js</strong> file as a plugin.</p>
   </Layout>
 )
 
-export default IndexPage
+export default Page2Page
