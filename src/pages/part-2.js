@@ -15,6 +15,8 @@ const Page2Page = () => (
         <li>Edited the {`<Layout`} component to reflect these changes</li>
         <li>Added support for SASS - just in case you like it!</li>
       </ul>
+
+      <p>To install sass, run <strong>{`npm install --save node-sass gatsby-plugin-sass`}</strong>. Then add it to your <strong>gatsby-config.js</strong> file as a plugin.</p>
   </Layout>
 )
 
