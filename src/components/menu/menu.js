@@ -22,7 +22,7 @@ const Menu = props => (
       <li className="menu__item"><Link to="/menu-component/" className="menu__link" activeClassName="menu__link--active">Menu Component</Link></li>
       <li className="menu__item"><Link to="/typography/" className="menu__link" activeClassName="menu__link--active">Typography.JS</Link></li>
       <li className="menu__item"><Link to="/styled-components/" className="menu__link" activeClassName="menu__link--active">Styled Components</Link></li>
-      <li className="menu__item"><Link to="/articles/" className="menu__link" activeClassName="menu__link--active">Articles</Link></li>
+      <li className="menu__item"><Link to="/articles/" className="menu__link" activeClassName="menu__link--active" partiallyActive={true}>Articles</Link></li>
     </ul>
   </nav>
 )
