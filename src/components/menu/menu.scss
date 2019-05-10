@@ -16,6 +16,7 @@
   transition: $trans--default;
   @media screen and (min-width: $bp--large) {
     display: flex;
+    flex-wrap: wrap;
     margin-right: -1rem;
     margin-left: -1rem;
     > * {
