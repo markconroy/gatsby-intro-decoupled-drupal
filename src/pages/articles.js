@@ -16,7 +16,7 @@ const ArticlesPage = ({ data }) => (
           <li>
             <h3><Link to={edge.node.path.alias}>{edge.node.title}</Link></h3>
             <small><em>{Date(edge.node.created)}</em></small>
-            <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, width: `100%` }}>
+            <div style={{ maxWidth: `300px`, marginBottom: `1.5rem`, width: `100%` }}>
               <Img fluid={edge.node.relationships.field_image.localFile.childImageSharp.fluid} />
             </div>
             <div dangerouslySetInnerHTML={{ __html: edge.node.body.value.split(' ').splice(0, 25).join(' ') + '...' }}></div>
@@ -47,9 +47,8 @@ export const ArticlesQuery = graphql`
             field_image {
               localFile {
                 childImageSharp {
-                  fluid(maxWidth: 500) {
-                    src
-                    srcSet
+                  fluid(maxWidth: 400, quality: 100) {
+                    ...GatsbyImageSharpFluid
                   }
                 }
               }
