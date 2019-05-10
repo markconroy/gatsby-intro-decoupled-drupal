@@ -31,7 +31,7 @@ In this part, we add support for Typography.JS
 We also begin to investigate using Styled Components rather than SCSS for styling.
 
 ## Part 4
-[Part4](https://markconroy.github.io/gatsby-intro-decoupled-drupal/public/part-4/)
+[Part 4](https://markconroy.github.io/gatsby-intro-decoupled-drupal/public/part-4/)
 This part deals with getting dynamic data from a Drupal website. We:
 - build a listing page for Articles
 - create a template to display individual articles
