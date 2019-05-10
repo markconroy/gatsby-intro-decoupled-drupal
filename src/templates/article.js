@@ -9,7 +9,7 @@ export default ({ data }) => {
     <Layout>
       <Fragment>
         <h1>{ article.title }</h1>
-        <small><em>{ Date(article.created) }</em></small>
+        <small><em>Published: { article.created }</em></small>
         <div style={{ maxWidth: `900px`, marginBottom: `1.45rem`, width: `100%` }}>
           <Img fluid={ article.relationships.field_image.localFile.childImageSharp.fluid } />
         </div>
