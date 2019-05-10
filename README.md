@@ -1,8 +1,9 @@
 # Gatsby Intro with Decoupled (Drupal) Website
 This is a repo for presentations about an introduction to GatsbyJS, and creating a decoupled website using Drupal.
 
-The final website is published here:
-https://markconroy.github.io/gatsby-intro-decoupled-drupal/public/
+You can find the [repo for the code here](https://github.com/markconroy/gatsby-intro-decoupled-drupal).
+
+The final website is [published here](https://markconroy.github.io/gatsby-intro-decoupled-drupal/public/).
 
 NOTE: This hasn't been deployed to GitHub using the Gatsby-GitHub plugin, so the links in the menu do not work correctly, you will need to add the slug for each to the end of the GitHub pages link for this site. This is so that I can include all the code needed for this repo AND the /public directory all in the same place. Sorry for any inconvenience. I'll create a list of links at the end of this readme.
 
