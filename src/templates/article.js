@@ -1,20 +1,20 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from 'gatsby-image'
 
 export default ({ data }) => {
-  const post = data.nodeArticle
+  const article = data.nodeArticle
   return (
     <Layout>
-      <div>
-        <h1>{ post.title }</h1>
-        <small><em>{ Date(post.created) }</em></small>
+      <Fragment>
+        <h1>{ article.title }</h1>
+        <small><em>{ Date(article.created) }</em></small>
         <div style={{ maxWidth: `900px`, marginBottom: `1.45rem`, width: `100%` }}>
-          <Img fluid={ post.relationships.field_image.localFile.childImageSharp.fluid } />
+          <Img fluid={ article.relationships.field_image.localFile.childImageSharp.fluid } />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.body.value }}></div>
-      </div>
+        <div dangerouslySetInnerHTML={{ __html: article.body.value }}></div>
+      </Fragment>
     </Layout>
   )
 }
