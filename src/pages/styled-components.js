@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Heading from "../components/headings/headings"
-import Button from "../components/button/button"
 import ButtonComponent from "../components/button/button";
 
 const StyledComponentsPage = () => (
