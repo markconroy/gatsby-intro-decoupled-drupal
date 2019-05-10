@@ -15,12 +15,14 @@ const Menu = props => (
       <li className="menu__item"><Link to="/" className="menu__link" activeClassName="menu__link--active">Home</Link></li>
       <li className="menu__item"><Link to="/part-2" className="menu__link" activeClassName="menu__link--active">Part 2</Link></li>
       <li className="menu__item"><Link to="/part-3" className="menu__link" activeClassName="menu__link--active">Part 3</Link></li>
+      <li className="menu__item"><Link to="/part-4" className="menu__link" activeClassName="menu__link--active">Part 4</Link></li>
       <li className="menu__item"><Link to="/link-component/" className="menu__link" activeClassName="menu__link--active">Link Component</Link></li>
       <li className="menu__item"><Link to="/image-component/" className="menu__link" activeClassName="menu__link--active">Image Component</Link></li>
       <li className="menu__item"><Link to="/whats-interesting/" className="menu__link" activeClassName="menu__link--active">What's Interesting?</Link></li>
       <li className="menu__item"><Link to="/menu-component/" className="menu__link" activeClassName="menu__link--active">Menu Component</Link></li>
       <li className="menu__item"><Link to="/typography/" className="menu__link" activeClassName="menu__link--active">Typography.JS</Link></li>
       <li className="menu__item"><Link to="/styled-components/" className="menu__link" activeClassName="menu__link--active">Styled Components</Link></li>
+      <li className="menu__item"><Link to="/articles/" className="menu__link" activeClassName="menu__link--active">Articles</Link></li>
     </ul>
   </nav>
 )
