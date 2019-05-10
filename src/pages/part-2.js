@@ -11,8 +11,8 @@ const Page2Page = () => (
       <ul>
         <li>Created a {`<Menu>`} component</li>
         <li>Created a {`<Footer>`} component and added the menu to it</li>
-        <li>Edited the {`<Header`} component to add the menu to it</li>
-        <li>Edited the {`<Layout`} component to reflect these changes</li>
+        <li>Edited the {`<Header>`} component to add the menu to it</li>
+        <li>Edited the {`<Layout>`} component to reflect these changes</li>
         <li>Added support for SASS - just in case you like it!</li>
       </ul>
 
