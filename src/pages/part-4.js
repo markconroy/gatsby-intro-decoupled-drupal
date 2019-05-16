@@ -23,8 +23,8 @@ const Page4Page = () => (
         <li>Check that you can access the content, for an individual article append the UUID of the article - http://umami.local/jsonapi/node/article/08ca15fc-203a-4913-8225-916091526020</li>
         <li>run <strong>{`npm install --save gatsby-source-drupal`}</strong></li>
         <li>Add this as a plugin to our <strong>gatsby-config.js</strong> file</li>
-        <li></li>
-        <li></li>
+        <li>Create articles.js in <strong>src/pages</strong></li>
+        <li>Create article.js in <strong>src/templates</strong></li>
       </ul>
   </Layout>
 )
