@@ -15,15 +15,15 @@ This is just the default installation of Gatsby.
 ## Part 1
 [Part 1](https://markconroy.github.io/gatsby-intro-decoupled-drupal/public/)
 In this part we look at some of the features of Gatsby that come as default, such as:
-- <Link> Component
-- <Image> Component
-- <Layout> Component
-- <SEO> Component
+- `<Link>` Component
+- `<Image>` Component
+- `<Layout>` Component
+- `<SEO>` Component
 - Creating new pages
 
 ## Part 2
 [Part 2](https://markconroy.github.io/gatsby-intro-decoupled-drupal/public/part-2/)
-In this part we look at creating custom components and reorganising the <Header>, <Footer>, and <Layout> components.
+In this part we look at creating custom components and reorganising the `<Header>`, `<Footer>`, and `<Layout>` components.
 We also add support for SASS for styling the website.
 
 ## Part 3
