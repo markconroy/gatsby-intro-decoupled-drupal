@@ -10,7 +10,7 @@ const LinkPage = () => (
     <h1>Link Component</h1>
     <h2>React {`<Link>`}</h2>
     <p>React has a {`<Link>`} component to link to pages within our React app.</p>
-    <p>Is is used instead of the {`<a>`} tag so React knows it is an internal link.</p>
+    <p>It is used instead of the {`<a>`} tag so React knows it is an internal link.</p>
     <p>Because it's an internal link, React knows to only load the component that you need and not perform a complete page refresh. Use the {`<a>`} tag for that to link outside of your app.</p>
     <h2>GatsbyJS {`<Link>`}</h2>
     <p>GatstyJS takes this one step further by doing 2 things:</p>
